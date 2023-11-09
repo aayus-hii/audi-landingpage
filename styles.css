@@ -1,0 +1,143 @@
+body {
+    font-family:monospace;
+    
+    place-items:center;
+    place-content:center;
+    background: linear-gradient(to right,rgb(170, 170, 170),black);
+}
+
+header {
+    /*background-color:rgb(29, 29, 29);*/
+    padding:20px;
+    display:flex;
+    align-items:center;
+    font-size: large;
+}
+p{
+    /*margin-left:100px;*/
+  margin-right: 400px;
+  font-style: normal;
+  font-size: medium;
+  font-family:monospace;
+  color:white;
+}
+.h1{
+    color:black;
+}
+
+.h4{
+    color:white;
+}
+
+.container {
+    padding: 0 5px;
+    margin:0px;
+}
+nav {
+    float:right;
+}
+nav a {
+    text-decoration: dashed;
+    color:white;
+    padding: 0 5px;
+    margin-left:40px;
+}
+main{
+    padding:0px;
+    margin-left: 0cap;
+}
+
+section {
+    margin-left:0%;
+    padding:30px;
+}
+
+
+
+.flex {
+    display:flex;
+}
+
+.wrapper {
+    margin:auto;
+    width:800px;
+}
+
+.logo{
+    margin-left: 20px;
+    width:75x;
+    height:60px
+}
+
+.audi-pic {
+    display:block;
+    margin:auto;
+    width: 500px;
+    height: 400px;
+    transition-duration: 1s;
+    
+}
+
+.audi-pic:hover{
+    width:600px;
+    height:500px;
+
+    
+}
+
+.button {
+    display:block;
+    margin:center;
+    background-color: black ;
+    border-radius:12px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display:inline-block;
+    transition-duration:0.4s;
+    cursor:pointer;
+    align-self:center;
+    
+
+}
+
+.button:hover {
+    background-color: white;
+    color:black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+/*.infobutton {
+    display:block;
+    margin:center;
+    background-color:transparent;
+    color:black;
+    padding:15px 32px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}*/
+
+
+.audi-pic2 {
+    margin:auto;
+    display:block;
+    
+    width: 1600px;
+    
+    
+} 
+
+
+
+.carpics {
+    margin-left: 150px;
+    width:400px;
+    transition-duration: 1s;
+    
+}
+
+.carpics:hover {
+    width:500px;
+}
